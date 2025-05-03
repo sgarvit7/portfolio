@@ -22,12 +22,17 @@ const Footer = () => {
           ssgarvit7@gmail.com
         </li>
         <li className="flex gap-1 items-center">
+          <a href="https://www.linkedin.com/in/garvit-sharma-958a04308/">
           <CiLinkedin />
           linkdlin.com/Garvit-sharma
+          </a>
         </li>
         <li className="flex gap-1 items-center">
+          <a href="https://github.com/sgarvit7">
           <FaGithub />
           github.com/sgarvit7
+          </a>
+    
         </li>
       </ul>
     </div>
