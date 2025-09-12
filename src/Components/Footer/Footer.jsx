@@ -16,21 +16,25 @@ const Footer = () => {
         </h3>
       </div>
 
-      <ul className="text-sm md:text-xl">
-        <li className="flex gap-1 items-center">
+      <ul className="text-sm md:text-xl space-y-3">
+        <li className="flex gap-2 items-center">
           <MdOutlineEmail size={20} />
           ssgarvit7@gmail.com
         </li>
-        <li className="flex gap-1 items-center">
-          <a href="https://www.linkedin.com/in/garvit-sharma-958a04308/">
+        <li className="flex gap-1  items-center">
+          <a href="https://www.linkedin.com/in/garvit-sharma-958a04308/" className="flex gap-2">
           <CiLinkedin />
-          linkdlin.com/Garvit-sharma
+          <div className="-mt-1">
+          Garvit Sharma
+          </div> 
           </a>
         </li>
         <li className="flex gap-1 items-center">
-          <a href="https://github.com/sgarvit7">
-          <FaGithub />
+          <a href="https://github.com/sgarvit7" className="flex gap-2">
+          <FaGithub className=""/>
+          <div className="-mt-1">
           github.com/sgarvit7
+          </div>
           </a>
     
         </li>
